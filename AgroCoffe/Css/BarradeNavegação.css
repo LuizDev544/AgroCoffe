@@ -1,0 +1,55 @@
+:root {
+    --color-dark: #272727; 
+    --color-white: rgb(255, 255, 255);
+    --color-1: #4A261A;
+    --color-2: #F3E9DC;
+    --color-3: #C08552;
+    --color-4: #5E3023;
+    --color-5: #895737;
+}
+
+.navbar {
+    background-color: var(--color-4);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: var(--color-dark);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+    transition: color 0.3s ease-in-out; 
+}
+
+#cabecalho .nav .nav-link:hover {
+    color: var(--color-3); 
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: var(--color-4);
+}
+
+.text-colored {
+    color: var(--color-3);
+}
+
+#eventos {
+    background-color: #0B2447;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
