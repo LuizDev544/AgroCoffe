@@ -24,11 +24,11 @@ $('form').validate({
         $(element).removeClass('is-invalid').addClass('is-valid');
     },
     submitHandler: function(form) {
-        alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
+        alert("Seu cadastro foi feito com sucesso , boas compras!");
         form.reset();
         $('.is-invalid, .is-valid').removeClass('is-invalid is-valid'); 
     },
     invalidHandler: function() {
-        alert("Por favor, preencha os campos para prosseguir com a compra!");
+        alert("Por favor, preencha os campos para prosseguir com o cadastro!");
     }
 });
