@@ -54,7 +54,7 @@ h4 {
 
 .btn-cadastrar {
     background-color: var(--color-5) !important; 
-    color: white !important;
+    color: rgb(245, 239, 239) !important;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
