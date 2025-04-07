@@ -1,0 +1,80 @@
+:root {
+    --color-dark: #272727; 
+    --color-white: rgb(255, 255, 255);
+    --color-1: #4A261A;
+    --color-2: #F3E9DC;
+    --color-3: #C08552;
+    --color-4: #5E3023;
+    --color-5: #895737;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F3E9DC !important;
+}
+
+
+h4 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--color-1);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: var(--color-white);
+    box-shadow: var(--color-5);
+}
+
+.form-campo {
+    margin-bottom: 20px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-cadastrar {
+    background-color: var(--color-5) !important; 
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-cadastrar:hover {
+    background-color: #734829 !important; 
+}
+
+.row.justify-content-center {
+    margin-top: 50px;
+}
+
+.error {
+    color: red;
+}
