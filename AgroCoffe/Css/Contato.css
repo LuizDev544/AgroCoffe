@@ -60,8 +60,12 @@ iframe {
 }
 
 footer {
-    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
     background-color: #8b5e3c;
     color: white;
-    margin-top: 30px;
+    text-align: center;
+    line-height: 60px; 
 }
