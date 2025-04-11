@@ -37,6 +37,7 @@ header nav a:hover {
 
 .sobre-img img {
     max-width: 50%;
+
     height: auto;
     border-radius: 10px;
 }
@@ -74,8 +75,9 @@ header nav a:hover {
 }
 
 .produto-item img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
     border-radius: 5px;
 }
 
