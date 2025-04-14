@@ -21,13 +21,13 @@ h3 {
     color: #999;
 }
 .btn {
-    background: #f08054;
+    background: #c57341;
     color: white;
     padding: 5px 10px;
     text-align: center;
 }
 .btn:hover {
-    color: #b66a37;
+    color: #c57341;
     background: white;
     padding: 3px 8px;
     border: 2px solid #5a341b;
@@ -37,7 +37,7 @@ h3 {
     align-items: center;
     justify-content: space-around;
     padding: 15px 10px;
-    border-bottom: 2px solid #ff822f;
+    border-bottom: 2px solid #895737;
 }
 table {
     padding: 10px;
@@ -49,7 +49,7 @@ td {
 }
 .side-menu {
     position: fixed;
-    background: #be7d5e;
+    background: #895737;
     width: 20vw;
     min-height: 100vh;
     display: flex;
@@ -194,6 +194,36 @@ td {
     height: 40px;
     width: 40px;
 }
+
+.animated-button {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.click-scale{
+    background: #c57341;
+}
+
+.click-scale:hover {
+    transform: scale(1.25);
+}
+
+.click-slide {
+    background: #28be49;
+    transition: transform 0.3s;
+}
+
+.click-slide:active {
+    transform: translateY(5px);
+}
+
 @media screen and (max-width: 1050px) {
     .side-menu li {
         font-size: 18px;
@@ -211,7 +241,7 @@ td {
         height: 40px;
     }
     .side-menu li:hover {
-        background: #f05462;
+        background: #895737;
         padding: 8px 38px;
         border: 2px solid white;
     }
