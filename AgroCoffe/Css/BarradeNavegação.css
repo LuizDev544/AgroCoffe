@@ -8,8 +8,8 @@
     --color-5: #895737;
 }
 
-h1{
-    color: var(--color-2);
+h1 {
+    color: var(--color-2) !important;
     font-family: 'Roboto', sans-serif; 
     height: 40px !important; 
 }
@@ -39,7 +39,8 @@ h1{
     background-color: #ffeae6;
 }
 
-#sobre-o-restaurante, #cardapio {
+#sobre-o-restaurante,
+#cardapio {
     background-color: var(--color-4);
 }
 
