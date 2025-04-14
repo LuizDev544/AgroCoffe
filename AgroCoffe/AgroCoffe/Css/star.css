@@ -1,0 +1,264 @@
+:root {
+    --cor-um: #2F2621;
+    --cor-dois: #4A261A;
+    --cor-tres: #F3E9DC;
+    --cor-quatro: #C08552;
+    --cor-cinco: #5E3023;
+    --cor-seis: #895737;
+    --cor-sete: #f4f1ec;
+    --cor-oito: #ded4c5;
+    --cor-nove: #beae9b;
+    --cor-dez: #ece4db;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+
+
+.title h1 {
+    font-size: 75px;
+    color: var(--cor-um);
+    border-bottom: 5px solid var(--cor-cinco);
+    background-color: var(--cor-tres);
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* teste */
+.image-container img {
+    width: 70%;
+    max-width: 700px;
+    border-radius: 5px;
+}
+
+.content {
+    background-color: #eae0d5;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.content h3 {
+    color: #4a4a4a;
+}
+.content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+/* Banner principal */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: var(--cor-sete);
+}
+
+.banner .imagem img {
+    width: 600px; 
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.banner .texto {
+    text-align: center;
+    max-width: 50%;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.banner h2 {
+    font-size: 24px;
+    color: var(--cor-um);
+}
+
+.banner h3 {
+    font-size: 24px;
+    color: var(--cor-um);
+    border: #895737;
+}
+
+.banner p {
+    font-size: 15px;
+    color: var(--cor-um);
+    margin: 10px 0;
+}
+
+.banner button {
+    background: var(--cor-seis);
+    color: var(--cor-sete);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/* Seção de Filtros */
+.filtros {
+    display: flex;
+    justify-content: center;
+    background: #ded4c5;
+    padding: 10px;
+}
+
+.opcoes button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.opcoes .ativo {
+    border-bottom: 3px solid var(--cor-cinco);
+}
+
+/* Seção de Categorias */
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f4f1ec;
+}
+
+.categoria {
+    text-align: center;
+    padding: 10px;
+}
+
+.categoria img {
+    width: 60px;
+}
+
+.categoria p {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* secao de lore */
+
+.lorecafe .cafegraos img {
+    width: 200px; 
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.lorecafe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background: var(--cor-oito);
+}
+
+.lorecafe .texto {
+    text-align: center;
+    max-width: 50%;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.lorecafe h2 {
+    font-size: 26px;
+    color: var(--cor-dois);
+}
+
+.lorecafe h3 {
+    font-size: 26px;
+    color: var(--cor-um);
+    border-bottom: 5px solid var(--cor-cinco);
+}
+
+.lorecafe p {
+    font-size: 15px;
+    color: var(--cor-um);
+    margin: 10px 0;
+}
+
+/* titulo cafes */
+
+.filtrosc {
+    display: flex;
+    justify-content: center;
+    background: var(--cor-nove);
+    padding: 10px;
+}
+
+.opcoesc button {
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.opcoesc .ativo {
+    border-bottom: 3px solid var(--cor-dois);
+}
+
+/* historia */
+
+.historia .logo img {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background: var(--cor-sete);
+}
+
+.historia .textosobre {
+    text-align: center;
+    max-width: 50%;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+
+.historia h3 {
+    font-size: 43px;
+    color: var(--cor-cinco);
+    border-bottom: 5px solid var(--cor-cinco);
+}
+
+.historia p {
+    font-size: 16px;
+    color: var(--cor-um);
+    margin: 10px 0;
+}
