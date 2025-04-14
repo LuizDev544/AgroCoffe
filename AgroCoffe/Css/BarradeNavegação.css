@@ -8,10 +8,24 @@
     --color-5: #895737;
 }
 
-h1 {
-    color: var(--color-2) !important;
-    font-family: 'Roboto', sans-serif; 
-    height: 40px !important; 
+#cabecalho {
+    background-color: var(--color-4);
+    padding: 15px 0;
+}
+
+#cabecalho h1 {
+    color: var(--color-2);
+    font-size: 28px;
+    margin: 0;
+}
+
+#cabecalho .nav-link {
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#cabecalho .nav-link:hover {
+    color: var(--color-3);
 }
 
 .navbar {
@@ -39,8 +53,7 @@ h1 {
     background-color: #ffeae6;
 }
 
-#sobre-o-restaurante,
-#cardapio {
+#sobre-o-restaurante, #cardapio {
     background-color: var(--color-4);
 }
 
