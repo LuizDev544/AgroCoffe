@@ -39,7 +39,7 @@ body{
     font-size:35px;
 }
 
-h1 {
+.car_tittle {
     text-align: center;
     padding: 40px;
 }
@@ -61,7 +61,7 @@ h1 {
     margin:50px;
 }
 
-img {
+.car_img {
     width: 350px;
     height: 350px;
     /* Garante que a imagem se ajuste sem distorção */
@@ -104,7 +104,7 @@ img {
     text-align: center;
 }
 
-button{
+.car_button{
     margin:20px;
     padding:10px;
     border:none;
@@ -113,11 +113,7 @@ button{
     width:150px;
 }
 
-button:hover{
+.car_button:hover{
     background-color: var(--Rope);
     transition: ease-in-out 0.5s;
-}
-
-footer{
-    width:100vw;
 }
