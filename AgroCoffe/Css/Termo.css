@@ -13,67 +13,6 @@
     background-color: #0056b3;
 }
 
-.checkbox-container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-family: Arial, sans-serif;
-}
-
-.checkbox-item {
-    position: relative;
-    padding-left: 30px;
-    cursor: pointer;
-    font-size: 16px;
-    user-select: none;
-}
-
-.checkbox-item input[type="checkbox"] {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.checkmark {
-    position: absolute;
-    left: 0;
-    top: 1px;
-    height: 20px;
-    width: 20px;
-    background-color: #eee;
-    border-radius: 4px;
-    transition: 0.2s;
-}
-
-.checkbox-item:hover input[type="checkbox"] ~ .checkmark {
-    background-color: #ccc;
-}
-
-.checkbox-item input[type="checkbox"]:checked ~ .checkmark {
-    background-color: #4caf50;
-}
-
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-.checkbox-item input[type="checkbox"]:checked ~ .checkmark:after {
-    display: block;
-}
-
-.checkbox-item .checkmark:after {
-    left: 7px;
-    top: 3px;
-    width: 6px;
-    height: 12px;
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-}
-
 .enviar-btn {
     margin-top: 20px;
     padding: 10px 20px;
@@ -84,7 +23,7 @@
     font-size: 16px;
     cursor: pointer;
     padding: 6px 12px;
-    font-size: 14px; /* menor fonte */
+    font-size: 14px;
     width: 100px;
 }
 
