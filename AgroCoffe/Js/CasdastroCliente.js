@@ -1,4 +1,5 @@
-$('#telefone').mask('(00) 00000-0000', {
+// Máscaras
+$('#telefone').mask('(00) 00000-0000', { 
     placeholder: '(DDD) 12345-6789'
 });
 
@@ -6,6 +7,11 @@ $('#cep').mask('00000-000', {
     placeholder: '012345-678'
 });
 
+$.validator.addMethod("senhaForte", function(value, element) {
+    return this.optional(element) || /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(value);
+}, "A senha deve conter pelo menos 8 caracteres, com letras maiúsculas e minúsculas.");
+
+// Validação do formulário
 $('form').validate({
     rules: {
         nome: { required: true },
@@ -13,7 +19,10 @@ $('form').validate({
         telefone: { required: true },
         endereco: { required: true },
         cep: { required: true },
-        senha: { required: true }
+        senha: { 
+            required: true,
+            senhaForte: true
+        }
     },
     errorClass: "is-invalid", 
     validClass: "is-valid", 
