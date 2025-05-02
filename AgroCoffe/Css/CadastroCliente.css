@@ -39,30 +39,30 @@ h4 {
     margin-bottom: 20px;
 }
 
-.form-campo label {
+label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.form-campo input {
+input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.btn-cadastrar {
+button {
     background-color: var(--color-5) !important; 
     color: rgb(245, 239, 239) !important;
     padding: 10px 20px;
-    border: none;
+    border: 100px;
     cursor: pointer;
     font-weight: bold;
     display: inline-block;
 }
 
-.btn-cadastrar:hover {
+button:hover {
     background-color: #734829 !important; 
 }
 

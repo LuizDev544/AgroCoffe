@@ -1,4 +1,4 @@
-$('#telefone').mask('(00) 00000-0000', {
+$('#tel').mask('(00) 00000-0000', {
     placeholder: '(DDD) 12345-6789'
 });
 
@@ -10,7 +10,7 @@ $('form').validate({
     rules: {
         nome: { required: true },
         email: { required: true, email: true },
-        telefone: { required: true },
+        tel: { required: true },
         endereco: { required: true },
         cep: { required: true },
         senha: { required: true }
@@ -24,9 +24,7 @@ $('form').validate({
         $(element).removeClass('is-invalid').addClass('is-valid');
     },
     submitHandler: function(form) {
-        alert("Seu cadastro foi enviado com sucesso!");
-        form.reset();
-        $('.is-invalid, .is-valid').removeClass('is-invalid is-valid'); 
+        cadastrar();
     },
     invalidHandler: function() {
         alert("Por favor, preencha os campos para prosseguir com o cadastro!");
