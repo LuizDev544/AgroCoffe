@@ -55,11 +55,10 @@ input {
 button {
     background-color: var(--color-5) !important; 
     color: rgb(245, 239, 239) !important;
-    padding: 10px 20px;
-    border: 100px;
-    cursor: pointer;
-    font-weight: bold;
-    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    
 }
 
 button:hover {
