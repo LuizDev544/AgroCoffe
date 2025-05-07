@@ -1,0 +1,18 @@
+POSTMAN
+
+Registrar Usuário
+
+Método: POST
+URL: http://localhost:8080/autenticacao/registrar?nome=joao&senha=123456
+
+irá criar uma URL
+
+Verificar o Código
+
+Método: POSTURL: http://localhost:8080/autenticacao/verificar?nome=joao&codigo= código gerado pelo Google Authenticator
+
+se resposta for TRUE = código certo e está funcionando
+se resposta for FALSE = código errado ou não está funcionando
+
+Caso o QRcode não seja criado no POSTMAN esse site pode criar usando o link criado pelo POSTMAN
+ https://www.qr-code-generator.com/

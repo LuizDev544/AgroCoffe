@@ -1,0 +1,7 @@
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+
+Colocar dependência no pom.xml (foi retirado para poder fazer testes no POSTMAN)
